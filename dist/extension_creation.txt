@@ -2,9 +2,9 @@ Thanks for trying out VOXO. We’ve pulled together some information and resourc
 
 VOXO ( https://voxo.co )
 
-******************
-Welcome, {{name}}!
-******************
+*****************
+Welcome, ${NAME}!
+*****************
 
 VOXO is a unified communications solution that will help you work more effectively. Besides using your office extension from your deskphone, you can take calls from anywhere using the softphones for iOS, Android, Mac and Windows.
 
@@ -14,7 +14,7 @@ VOXO also includes web conferencing which will allow you to easily create on-dem
 Your VOXO Extension
 *******************
 
-* Your extension number is 1001
+* Your extension number is ${EXTENSION}
 
 * You can retrieve your voice mail by dialing *97
 
@@ -28,9 +28,9 @@ With the VOXO Desktop App you don’t need to install any software. To access it
 
 URL: https://webclient.voxo.co
 
-Username: 1001
+Username: ${EXTENSION}
 
-Password: 84JFfs82K
+Password: ${WEBPASSWORD}
 
 To install the app on your computer click one of the links below:
 
@@ -50,9 +50,9 @@ With the VOXO mobile app you can make and receive calls, view the presence of yo
 
 After installing the iOS or Android app, see the details below for signing in
 
-* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( csc://1001:84JFfs82K@VOXO )
+* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( csc://%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
 
-* If you are viewing this email on your PC, open your mobile app on your phone and Click Here to see your QR Code ( https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=1001:84JFfs82K@VOXO )
+* If you are viewing this email on your PC, open your mobile app on your phone and Click Here to see your QR Code ( https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
 
 ***************
 Using VOXO Meet
@@ -60,11 +60,11 @@ Using VOXO Meet
 
 You can send customers and colleagues your personal Meeting URL and arrange on-demand or scheduled web meetings.
 
-Checkout VOXO Meet ( https://meet.voxo.co/84JFfs82K )
+Checkout VOXO Meet ( https://meet.voxo.co/%24%7BWEBPASSWORD%7D )
 
 For reference, here's your personal meeting URL to share with others:
 
-Meeting URL: https://meet.voxo.co/84JFfs82K
+Meeting URL: https://meet.voxo.co/${PASSWORD} ( https://meet.voxo.co/%24%7BPASSWORD%7D )
 
 Using the VOXO Meet Chrome Plugin ( https://chrome.google.com/webstore/detail/voxo-meet/enbobpnfcaohmdnjcpdjphkemkaemlil ) you can schedule meetings in GSuite and Office 365.
 
@@ -75,15 +75,12 @@ Learn more about these products
 * Your deskphone ( https://s3.amazonaws.com/miscdts/quickstart-guide.pdf )
 * Watch How-to's on our YouTube channel ( http://youtube.voxo.co )
 
-If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat ( {{ live_chat_url }} ) during business hours.
+If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat on our website.
 
 Thanks,
-
 From the VOXO Team
 
-If you’re having trouble with the button above, copy and paste the URL below into your web browser.
-
-{{action_url}}
+If you’re having trouble with reading the email above or you should not be receiving this email, let us know.
 
 Facebook ( https://www.facebook.com/voxoco )
 

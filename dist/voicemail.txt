@@ -23,9 +23,7 @@ ${VM_TRANSCRIPT}
 Thanks,
 From the VOXO Team
 
-If you’re having trouble with the button above, copy and paste the URL below into your web browser.
-
-{{action_url}}
+If you’re having trouble with reading the email above or you should not be receiving this email, let us know.
 
 Facebook ( https://www.facebook.com/voxoco )
 

@@ -411,12 +411,12 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>Welcome, {{name}}!</h1>
+                      <h1>Welcome, ${NAME}!</h1>
                       <p>VOXO is a unified communications solution that will help you work more effectively. Besides using your office extension from your deskphone, you can take calls from anywhere using the softphones for iOS, Android, Mac and Windows.</p>
                       <p>VOXO also includes web conferencing which will allow you to easily create on-demand face-to-face meetings.</p>
                       <h1>Your VOXO Extension</h1>
                       <ul>
-                        <li>Your extension number is <strong>1001</strong></li>
+                        <li>Your extension number is <strong>${EXTENSION}</strong></li>
                         <li>You can retrieve your voice mail by dialing <strong>*97</strong></li>
                         <li>You can record a personalized greeting by following the voice prompts in your mailbox</li>
                       </ul>
@@ -430,10 +430,10 @@
                                 <td class="attributes_item"><strong>URL:</strong> <a href="https://webclient.voxo.co" target="_blank">https://webclient.voxo.co</a></td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong>Username:</strong> 1001</td>
+                                <td class="attributes_item"><strong>Username:</strong> ${EXTENSION}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong>Password:</strong> 84JFfs82K</td>
+                                <td class="attributes_item"><strong>Password:</strong> ${WEBPASSWORD}</td>
                               </tr>
                             </table>
                           </td>
@@ -453,8 +453,8 @@
                       </ul>
                       <p>After installing the iOS or Android app, see the details below for signing in</p>
                       <ul>
-                        <li>If you a viewing this email on your mobile device and have already downloaded the app, <a href="csc://1001:84JFfs82K@VOXO">Click here to sign in</a></li>
-                        <li>If you are viewing this email on your PC, open your mobile app on your phone and <a href="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=1001:84JFfs82K@VOXO" target="_blank">Click Here to see your QR Code</a></li>
+                        <li>If you a viewing this email on your mobile device and have already downloaded the app, <a href="csc://${EXTENSION}:${WEBPASSWORD}@VOXO">Click here to sign in</a></li>
+                        <li>If you are viewing this email on your PC, open your mobile app on your phone and <a href="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=${EXTENSION}:${WEBPASSWORD}@VOXO" target="_blank">Click Here to see your QR Code</a></li>
                       </ul>
                       <h1>Using VOXO Meet</h1>
                       <p>You can send customers and colleagues your personal Meeting URL and arrange on-demand or scheduled web meetings.</p>
@@ -470,7 +470,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="https://meet.voxo.co/84JFfs82K" class="button button--" target="_blank">Checkout VOXO Meet</a>
+                                        <a href="https://meet.voxo.co/${WEBPASSWORD}" class="button button--" target="_blank">Checkout VOXO Meet</a>
                                       </td>
                                     </tr>
                                   </table>
@@ -486,7 +486,7 @@
                           <td class="attributes_content">
                             <table width="100%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td class="attributes_item"><strong>Meeting URL:</strong> <a href="https://meet.voxo.co/84JFfs82K" target="_blank">https://meet.voxo.co/84JFfs82K</a></td>
+                                <td class="attributes_item"><strong>Meeting URL:</strong> <a href="https://meet.voxo.co/${PASSWORD}" target="_blank">https://meet.voxo.co/${PASSWORD}</a></td>
                               </tr>
                             </table>
                           </td>
@@ -500,15 +500,14 @@
                         <li><a href="https://s3.amazonaws.com/miscdts/quickstart-guide.pdf" target="_blank">Your deskphone</a></li>
                         <li><a href="http://youtube.voxo.co" target="_blank">Watch How-to's on our YouTube channel</a></li>
                       </ul>
-                      <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer <a href="{{live_chat_url}}">live chat</a> during business hours.</p>
+                      <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer live chat on our website.</p>
                       <p>Thanks,
                         <br>From the VOXO Team</p>
                       <!-- Sub copy -->
                       <table class="body-sub">
                         <tr>
                           <td>
-                            <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
-                            <p class="sub">{{action_url}}</p>
+                            <p class="sub">If you’re having trouble with reading the email above or you should not be receiving this email, let us know.</p>
                           </td>
                         </tr>
                       </table>

@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Abandoned Caller in ${QUEUENAME}</title>
+    <title>Welcome to the VOXO Portal!</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -392,6 +392,7 @@
     </style>
   </head>
   <body>
+    <span class="preheader">Thanks for trying out VOXO. We’ve pulled together some information and resources to help you get started.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
@@ -410,35 +411,36 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>Hi there,</h1>
-                      <p>A caller has abandoned a queue. Here are the details below:</p>
+                      <h1>Welcome, ${USERNAME}!</h1>
+                      <p>You've been invited to use the VOXO Portal as an admin on bahalf of your company.</p>
+                      <p>Here are your login details below:</p>
                       <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td class="attributes_content">
                             <table width="100%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td class="attributes_item"><strong>Queue:</strong> ${QUEUENAME}</td>
+                                <td class="attributes_item"><strong>URL:</strong> <a href="https://portal.voxo.co" target="_blank">https://portal.voxo.co</a></td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong>Caller ID:</strong> ${CALLERNUM}</td>
+                                <td class="attributes_item"><strong>Username:</strong> ${USERNAME}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong>Waited For:</strong> ${QUEUEWAITING} seconds</td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong>Number Dialed:</strong> ${INCOMINGDID}</td>
+                                <td class="attributes_item"><strong>Password:</strong> ${PASSWORD}</td>
                               </tr>
                             </table>
                           </td>
                         </tr>
                       </table>
+                      <p>We recommend you change this password before logging in. To do this, go to the URL above and click <strong>Change Password</strong> on the login page and enter the new details</p>
+                      <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer live chat on our website.</p>
                       <p>Thanks,
                         <br>From the VOXO Team</p>
                       <!-- Sub copy -->
                       <table class="body-sub">
                         <tr>
                           <td>
-                            <p class="sub">If you’re having trouble with reading the email above or you should not be receiving this email, let us know.</p>
+                            <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
+                            <p class="sub">{{action_url}}</p>
                           </td>
                         </tr>
                       </table>

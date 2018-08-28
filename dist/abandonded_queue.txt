@@ -1,8 +1,8 @@
 VOXO ( https://voxo.co )
 
-******************
-Welcome, {{name}}!
-******************
+*********
+Hi there,
+*********
 
 A caller has abandoned a queue. Here are the details below:
 
@@ -17,9 +17,7 @@ Number Dialed: ${INCOMINGDID}
 Thanks,
 From the VOXO Team
 
-If you’re having trouble with the button above, copy and paste the URL below into your web browser.
-
-{{action_url}}
+If you’re having trouble with reading the email above or you should not be receiving this email, let us know.
 
 Facebook ( https://www.facebook.com/voxoco )
 

@@ -1,0 +1,37 @@
+---
+layout: layout.hbs
+subject: "Your fax failed to send"
+preheader: "Thanks for trying out <%= product_name %>. We’ve pulled together some information and resources to help you get started."
+---
+<table class="email-content" width="100%" cellpadding="0" cellspacing="0">
+
+  {{> masthead }}
+
+  <!-- Email Body -->
+  <tr>
+    <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
+      <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0">
+
+        <!-- Body content -->
+        <tr>
+          <td class="content-cell">
+
+            <h1>Hi, there!</h1>
+
+            <p>We are sorry but the fax you attempted to send to ${FAXDESTNUM} failed to send after multiple attempts. Please reach out to the person you are trying to send a fax to in order to verify they are able to receive faxes from you.</p>
+
+            <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer live chat on our website.</p>
+
+            <p>Thanks,<br>From the VOXO Team</p>
+
+            {{> button_trouble }}
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  {{> footer }}
+
+</table>
