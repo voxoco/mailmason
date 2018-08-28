@@ -1,19 +1,19 @@
-{{invite_sender_name}} with {{invite_sender_organization_name}} has invited you to use [Product Name] to collaborate with them.
+{{invite_sender_name}} with {{invite_sender_organization_name}} has invited you to use VOXO to collaborate with them.
 
-[Product Name] ( https://example.com )
+VOXO ( https://voxo.co )
 
 *************
 Hi, {{name}}!
 *************
 
-{{invite_sender_name}} with {{invite_sender_organization_name}} has invited you to use [Product Name] to collaborate with them. Use the button below to set up your account and get started:
+{{invite_sender_name}} with {{invite_sender_organization_name}} has invited you to use VOXO to collaborate with them. Use the button below to set up your account and get started:
 
 Set up account ( {{ action_url }} )
 
 If you have any questions for {{invite_sender_name}}, you can reply to this email and it will go right to them. Alternatively, feel free to contact our customer success team ( {{ support_email }} ) anytime. (We're lightning quick at replying.) We also offer live chat ( {{ live_chat_url }} ) during business hours.
 
 Welcome aboard,
-The [Product Name] Team
+The VOXO Team
 
 P.S. Need help getting started? Check out our help documentation ( {{ help_url }} ).
 
@@ -21,10 +21,16 @@ If you’re having trouble with the button above, copy and paste the URL below i
 
 {{action_url}}
 
-© 2017 [Product Name]. All rights reserved.
+Facebook ( https://www.facebook.com/voxoco )
 
-[Company Name, LLC]
+Twitter ( https://twitter.com/voxollc )
 
-1234 Street Rd.
+YouTube ( http://youtube.voxo.co )
 
-Suite 1234
+© 2018 VOXO. All rights reserved.
+
+VOXO, LLC
+
+47 Town Center Sq.
+
+Hattiesburg, MS 39402

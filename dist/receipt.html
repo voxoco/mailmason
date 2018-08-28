@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Receipt for [Product Name]</title>
+    <title>Receipt for VOXO</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -328,7 +328,7 @@
       display: inline-block;
       color: #FFF;
       text-decoration: none;
-      border-radius: 3px;
+      border-radius: 4px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
       -webkit-text-size-adjust: none;
     }
@@ -399,9 +399,9 @@
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
             <tr>
               <td class="email-masthead">
-                <a href="https://example.com" class="email-masthead_name">
-        [Product Name]
-      </a>
+                <a href="https://voxo.co" class="email-masthead_name">
+                  <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/logo.png" alt="VOXO" width="180">
+                </a>
               </td>
             </tr>
             <!-- Email Body -->
@@ -412,8 +412,8 @@
                   <tr>
                     <td class="content-cell">
                       <h1>Hi {{name}},</h1>
-                      <p>Thanks for using [Product Name]. This email is the receipt for your purchase. No payment is due.</p>
-                      <p>This purchase will appear as “[Credit Card Statement Name]” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to <a href="{{billing_url}}">update your payment information</a>?</p>
+                      <p>Thanks for using VOXO. This email is the receipt for your purchase. No payment is due.</p>
+                      <p>This purchase will appear as “VOXO, LLC” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to <a href="{{billing_url}}">update your payment information</a>?</p>
                       <!-- Discount -->
                       <table class="discount" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -476,7 +476,7 @@
                       </table>
                       <p>If you have any questions about this receipt, simply reply to this email or reach out to our <a href="{{support_url}}">support team</a> for help.</p>
                       <p>Cheers,
-                        <br>The [Product Name] Team</p>
+                        <br>The VOXO Team</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -499,6 +499,28 @@
                           </td>
                         </tr>
                       </table>
+                      <!-- Related Items -->
+                      <table class="related" align="center" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td align="center" colspan="2">
+                            <h2 class="related_heading">You may also like...</h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="related_item" align="center">
+                            <a href="">
+                              <img class="related_item-thumb" src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/related_placeholder.png" width="180">
+                              <h4 class="related_item-title">{{ item_one_name }}</h4>
+                            </a>
+                          </td>
+                          <td class="related_item" align="center">
+                            <a href="">
+                              <img class="related_item-thumb" src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/related_placeholder.png" width="180">
+                              <h4 class="related_item-title">{{ item_two_name }}</h4>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
                       <!-- Sub copy -->
                       <table class="body-sub">
                         <tr>
@@ -518,11 +540,30 @@
                 <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
                   <tr>
                     <td class="content-cell" align="center">
-                      <p class="sub align-center">&copy; 2017 [Product Name]. All rights reserved.</p>
+                      <table class="social" align="center" width="570" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="align-center">
+                            <a href="https://www.facebook.com/voxoco">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/facebook_circle.png" height="20" alt="Facebook" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="https://twitter.com/voxollc">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/twitter_circle.png" height="20" alt="Twitter" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="http://youtube.voxo.co">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/youtube_circle.png" height="20" alt="YouTube" class="social_icon">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                      <p class="sub align-center">&copy; 2018 VOXO. All rights reserved.</p>
                       <p class="sub align-center">
-                        [Company Name, LLC]
-                        <br>1234 Street Rd.
-                        <br>Suite 1234
+                        VOXO, LLC
+                        <br>47 Town Center Sq.
+                        <br>Hattiesburg, MS 39402
                       </p>
                     </td>
                   </tr>

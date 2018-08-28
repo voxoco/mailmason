@@ -1,0 +1,36 @@
+VOXO ( https://voxo.co )
+
+******************
+Welcome, {{name}}!
+******************
+
+A caller has abandoned a queue. Here are the details below:
+
+Queue: ${QUEUENAME}
+
+Caller ID: ${CALLERNUM}
+
+Waited For: ${QUEUEWAITING} seconds
+
+Number Dialed: ${INCOMINGDID}
+
+Thanks,
+From the VOXO Team
+
+If you’re having trouble with the button above, copy and paste the URL below into your web browser.
+
+{{action_url}}
+
+Facebook ( https://www.facebook.com/voxoco )
+
+Twitter ( https://twitter.com/voxollc )
+
+YouTube ( http://youtube.voxo.co )
+
+© 2018 VOXO. All rights reserved.
+
+VOXO, LLC
+
+47 Town Center Sq.
+
+Hattiesburg, MS 39402

@@ -1,0 +1,42 @@
+VOXO ( https://voxo.co )
+
+***************
+Hi, ${VM_NAME}!
+***************
+
+There is a new voicemail in mailbox ${VM_MAILBOX}. Here are the details:
+
+From Name: ${VM_CIDNAME}
+
+From Number: ${VM_CIDNUM}
+
+Date: ${VM_USDATE}
+
+Time: ${VM_12TIME}
+
+ID: ${VM_MSGNUM}
+
+Here are the transiption details below:
+
+${VM_TRANSCRIPT}
+
+Thanks,
+From the VOXO Team
+
+If you’re having trouble with the button above, copy and paste the URL below into your web browser.
+
+{{action_url}}
+
+Facebook ( https://www.facebook.com/voxoco )
+
+Twitter ( https://twitter.com/voxollc )
+
+YouTube ( http://youtube.voxo.co )
+
+© 2018 VOXO. All rights reserved.
+
+VOXO, LLC
+
+47 Town Center Sq.
+
+Hattiesburg, MS 39402

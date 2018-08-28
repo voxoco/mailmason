@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Your VOXO trial has expired</title>
+    <title>Welcome to VOXO, {{name}}!</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -392,7 +392,7 @@
     </style>
   </head>
   <body>
-    <span class="preheader">Your trial period for VOXO has recently expired. What would you like us to do?</span>
+    <span class="preheader">Thanks for trying out VOXO. We’ve pulled together some information and resources to help you get started.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
@@ -411,8 +411,53 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>Your VOXO trial expired</h1>
-                      <p>Thanks for trying VOXO. You've added a lot of data, so here are several options for you to consider going forward.</p>
+                      <h1>Welcome, {{name}}!</h1>
+                      <p>VOXO is a unified communications solution that will help you work more effectively. Besides using your office extension from your deskphone, you can take calls from anywhere using the softphones for iOS, Android, Mac and Windows.</p>
+                      <p>VOXO also includes web conferencing which will allow you to easily create on-demand face-to-face meetings.</p>
+                      <h1>Your VOXO Extension</h1>
+                      <ul>
+                        <li>Your extension number is <strong>1001</strong></li>
+                        <li>You can retrieve your voice mail by dialing <strong>*97</strong></li>
+                        <li>You can record a personalized greeting by following the voice prompts in your mailbox</li>
+                      </ul>
+                      <h1>Using the VOXO Desktop App</h1>
+                      <p>With the VOXO Desktop App you don’t need to install any software. To access it:</p>
+                      <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="attributes_content">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="attributes_item"><strong>URL:</strong> <a href="https://webclient.voxo.co" target="_blank">https://webclient.voxo.co</a></td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Username:</strong> 1001</td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Password:</strong> 84JFfs82K</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <p>To install the app on your computer click one of the links below:</p>
+                      <ul>
+                        <li><a href="https://windowsdownload.com" target="_blank">Windows</a></li>
+                        <li><a href="https://macdownload.com" target="_blank">Mac</a></li>
+                      </ul>
+                      <p>Using the <a href="https://chromeweblink.com">VOXO Quick Dial Chrome Plugin</a> you can call numbers directly from any webpage or CRM.</p>
+                      <h1>Using the VOXO Mobile App</h1>
+                      <p>With the VOXO mobile app you can make and receive calls, view the presence of your colleagues, transfer calls with a click and chat with one another.</p>
+                      <ul>
+                        <li><a href="https://android.com" target="_blank">Android</a></li>
+                        <li><a href="https://ios.com" target="_blank">iOS</a></li>
+                      </ul>
+                      <p>After installing the iOS or Android app, see the details below for signing in</p>
+                      <ul>
+                        <li>If you a viewing this email on your mobile device and have already downloaded the app, <a href="csc://1001:84JFfs82K@VOXO">Click here to sign in</a></li>
+                        <li>If you are viewing this email on your PC, open your mobile app on your phone and <a href="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=1001:84JFfs82K@VOXO" target="_blank">Click Here to see your QR Code</a></li>
+                      </ul>
+                      <h1>Using VOXO Meet</h1>
+                      <p>You can send customers and colleagues your personal Meeting URL and arrange on-demand or scheduled web meetings.</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -425,7 +470,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{action_url}}" class="button button--green" target="_blank">Upgrade your account</a>
+                                        <a href="https://meet.voxo.co/84JFfs82K" class="button button--" target="_blank">Checkout VOXO Meet</a>
                                       </td>
                                     </tr>
                                   </table>
@@ -435,40 +480,38 @@
                           </td>
                         </tr>
                       </table>
-                      <p>If you're not ready to upgrade to a paying account, you have a few other options available to you&hellip;</p>
+                      <p>For reference, here's your personal meeting URL to share with others:</p>
                       <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td class="attributes_content">
                             <table width="100%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td class="attributes_item"><strong><a href="{{trial_extension_url}}">Restart your trial</a></strong> - If you didn't get a chance to fully try out the product or need a little more time to evaluate, just let us know. Simply reply to this email and we'll extend your trial period.
-                                  <br>
-                                  <br>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong><a href="{{feedback_url}}">Share feedback</a></strong> - If VOXO isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
-                                  <br>
-                                  <br>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong><a href="{{export_url}}">Export your data</a></strong> - If VOXO wasn't a good fit, you can export your data for use elsewhere.
-                                  <br>
-                                  <br>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong><a href="{{close_account_url}}">Close your account</a></strong> - You can close your account and delete your data. Or, do nothing and we'll automatically close it and delete your data for you in 90 days. But don't worry, we'll send you another email before that happens.</td>
+                                <td class="attributes_item"><strong>Meeting URL:</strong> <a href="https://meet.voxo.co/84JFfs82K" target="_blank">https://meet.voxo.co/84JFfs82K</a></td>
                               </tr>
                             </table>
                           </td>
                         </tr>
                       </table>
-                      <p>Regardless of your choice, we want to say thank you for trying VOXO. We know it's an investment of your time, and we appreciate you giving us a chance.</p>
+                      <p>Using the <a href="https://chrome.google.com/webstore/detail/voxo-meet/enbobpnfcaohmdnjcpdjphkemkaemlil" target="_blank">VOXO Meet Chrome Plugin</a> you can schedule meetings in GSuite and Office 365.</p>
+                      <p></p>
+                      <h3>Learn more about these products</h3>
+                      <ul>
+                        <li><a href="https://medium.com/voxo-llc/introducing-the-new-voxo-meet-615178d719ed" target="_blank">VOXO Meeet</a></li>
+                        <li><a href="https://s3.amazonaws.com/miscdts/quickstart-guide.pdf" target="_blank">Your deskphone</a></li>
+                        <li><a href="http://youtube.voxo.co" target="_blank">Watch How-to's on our YouTube channel</a></li>
+                      </ul>
+                      <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer <a href="{{live_chat_url}}">live chat</a> during business hours.</p>
                       <p>Thanks,
-                        <br>Mail from VOXO and the VOXO Team</p>
-                      <p><strong>P.S.</strong> If you have any questions or need any help, please don't hesitate to reach out. You can reply to this email or join us on live chat during business hours.</p>
+                        <br>From the VOXO Team</p>
+                      <!-- Sub copy -->
+                      <table class="body-sub">
+                        <tr>
+                          <td>
+                            <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
+                            <p class="sub">{{action_url}}</p>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>

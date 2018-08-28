@@ -1,12 +1,12 @@
 This is an invoice for your purchase on {{ purchase_date }}. Please submit payment by {{ due_date }}
 
-[Product Name] ( https://example.com )
+VOXO ( https://voxo.co )
 
 ************
 Hi {{name}},
 ************
 
-Thanks for using [Product Name]. This is an invoice for your recent purchase.
+Thanks for using VOXO. This is an invoice for your recent purchase.
 
 Amount Due: {{total}}
 
@@ -38,16 +38,36 @@ Total
 If you have any questions about this invoice, simply reply to this email or reach out to our support team ( {{ support_url }} ) for help.
 
 Cheers,
-The [Product Name] Team
+The VOXO Team
+
+--------------------
+You may also like...
+--------------------
+
+{{ item_one_name }}
+-------------------
+
+(  )
+
+{{ item_two_name }}
+-------------------
+
+(  )
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.
 
 {{action_url}}
 
-© 2017 [Product Name]. All rights reserved.
+Facebook ( https://www.facebook.com/voxoco )
 
-[Company Name, LLC]
+Twitter ( https://twitter.com/voxollc )
 
-1234 Street Rd.
+YouTube ( http://youtube.voxo.co )
 
-Suite 1234
+© 2018 VOXO. All rights reserved.
+
+VOXO, LLC
+
+47 Town Center Sq.
+
+Hattiesburg, MS 39402

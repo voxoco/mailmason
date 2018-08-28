@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Welcome to [Product Name], {{name}}!</title>
+    <title>Welcome to VOXO, {{name}}!</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -328,7 +328,7 @@
       display: inline-block;
       color: #FFF;
       text-decoration: none;
-      border-radius: 3px;
+      border-radius: 4px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
       -webkit-text-size-adjust: none;
     }
@@ -392,16 +392,16 @@
     </style>
   </head>
   <body>
-    <span class="preheader">Thanks for trying out [Product Name]. We’ve pulled together some information and resources to help you get started.</span>
+    <span class="preheader">Thanks for trying out VOXO. We’ve pulled together some information and resources to help you get started.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
             <tr>
               <td class="email-masthead">
-                <a href="https://example.com" class="email-masthead_name">
-        [Product Name]
-      </a>
+                <a href="https://voxo.co" class="email-masthead_name">
+                  <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/logo.png" alt="VOXO" width="180">
+                </a>
               </td>
             </tr>
             <!-- Email Body -->
@@ -412,8 +412,52 @@
                   <tr>
                     <td class="content-cell">
                       <h1>Welcome, {{name}}!</h1>
-                      <p>Thanks for trying [Product Name]. We’re thrilled to have you on board.</p>
-                      <p>To get the most out of [Product Name], do this primary next step:</p>
+                      <p>VOXO is a unified communications solution that will help you work more effectively. Besides using your office extension from your deskphone, you can take calls from anywhere using the softphones for iOS, Android, Mac and Windows.</p>
+                      <p>VOXO also includes web conferencing which will allow you to easily create on-demand face-to-face meetings.</p>
+                      <h1>Your VOXO Extension</h1>
+                      <ul>
+                        <li>Your extension number is <strong>1001</strong></li>
+                        <li>You can retrieve your voice mail by dialing <strong>*97</strong></li>
+                        <li>You can record a personalized greeting by following the voice prompts in your mailbox</li>
+                      </ul>
+                      <h1>Using the VOXO Desktop App</h1>
+                      <p>With the VOXO Desktop App you don’t need to install any software. To access it:</p>
+                      <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="attributes_content">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="attributes_item"><strong>URL:</strong> <a href="https://webclient.voxo.co" target="_blank">https://webclient.voxo.co</a></td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Username:</strong> 1001</td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Password:</strong> 84JFfs82K</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <p>To install the app on your computer click one of the links below:</p>
+                      <ul>
+                        <li><a href="https://windowsdownload.com" target="_blank">Windows</a></li>
+                        <li><a href="https://macdownload.com" target="_blank">Mac</a></li>
+                      </ul>
+                      <p>Using the <a href="https://chromeweblink.com">VOXO Quick Dial Chrome Plugin</a> you can call numbers directly from any webpage or CRM.</p>
+                      <h1>Using the VOXO Mobile App</h1>
+                      <p>With the VOXO mobile app you can make and receive calls, view the presence of your colleagues, transfer calls with a click and chat with one another.</p>
+                      <ul>
+                        <li><a href="https://android.com" target="_blank">Android</a></li>
+                        <li><a href="https://ios.com" target="_blank">iOS</a></li>
+                      </ul>
+                      <p>After installing the iOS or Android app, see the details below for signing in</p>
+                      <ul>
+                        <li>If you a viewing this email on your mobile device and have already downloaded the app, <a href="csc://1001:84JFfs82K@VOXO">Click here to sign in</a></li>
+                        <li>If you are viewing this email on your PC, open your mobile app on your phone and <a href="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=1001:84JFfs82K@VOXO" target="_blank">Click Here to see your QR Code</a></li>
+                      </ul>
+                      <h1>Using VOXO Meet</h1>
+                      <p>You can send customers and colleagues your personal Meeting URL and arrange on-demand or scheduled web meetings.</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -426,7 +470,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{action_url}}" class="button button--" target="_blank">Do this Next</a>
+                                        <a href="https://meet.voxo.co/84JFfs82K" class="button button--" target="_blank">Checkout VOXO Meet</a>
                                       </td>
                                     </tr>
                                   </table>
@@ -436,40 +480,29 @@
                           </td>
                         </tr>
                       </table>
-                      <p>For reference, here's your login information:</p>
+                      <p>For reference, here's your personal meeting URL to share with others:</p>
                       <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td class="attributes_content">
                             <table width="100%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td class="attributes_item"><strong>Login Page:</strong> {{login_url}}</td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong>Username:</strong> {{username}}</td>
+                                <td class="attributes_item"><strong>Meeting URL:</strong> <a href="https://meet.voxo.co/84JFfs82K" target="_blank">https://meet.voxo.co/84JFfs82K</a></td>
                               </tr>
                             </table>
                           </td>
                         </tr>
                       </table>
-                      <p>You've started a {{trial_length}} day trial. You can upgrade to a paying account or cancel any time.</p>
-                      <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td class="attributes_content">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <td class="attributes_item"><strong>Trial Start Date:</strong> {{trial_start_date}}</td>
-                              </tr>
-                              <tr>
-                                <td class="attributes_item"><strong>Trial End Date:</strong> {{trial_end_date}}</td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                      <p>If you have any questions, feel free to <a href="mailto:{{support_email}}">email our customer success team</a>. (We're lightning quick at replying.) We also offer <a href="{{live_chat_url}}">live chat</a> during business hours.</p>
+                      <p>Using the <a href="https://chrome.google.com/webstore/detail/voxo-meet/enbobpnfcaohmdnjcpdjphkemkaemlil" target="_blank">VOXO Meet Chrome Plugin</a> you can schedule meetings in GSuite and Office 365.</p>
+                      <p></p>
+                      <h3>Learn more about these products</h3>
+                      <ul>
+                        <li><a href="https://medium.com/voxo-llc/introducing-the-new-voxo-meet-615178d719ed" target="_blank">VOXO Meeet</a></li>
+                        <li><a href="https://s3.amazonaws.com/miscdts/quickstart-guide.pdf" target="_blank">Your deskphone</a></li>
+                        <li><a href="http://youtube.voxo.co" target="_blank">Watch How-to's on our YouTube channel</a></li>
+                      </ul>
+                      <p>If you have any questions, feel free to <a href="mailto:support@voxo.co">email our customer success team</a>. (We're lightning quick at replying.) We also offer live chat on our website.</p>
                       <p>Thanks,
-                        <br>[Sender Name] and the [Product Name] Team</p>
-                      <p><strong>P.S.</strong> Need immediate help getting started? Check out our <a href="{{help_url}}">help documentation</a>. Or, just reply to this email, the [Product Name] support team is always ready to help!</p>
+                        <br>From the VOXO Team</p>
                       <!-- Sub copy -->
                       <table class="body-sub">
                         <tr>
@@ -489,11 +522,30 @@
                 <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
                   <tr>
                     <td class="content-cell" align="center">
-                      <p class="sub align-center">&copy; 2017 [Product Name]. All rights reserved.</p>
+                      <table class="social" align="center" width="570" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="align-center">
+                            <a href="https://www.facebook.com/voxoco">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/facebook_circle.png" height="20" alt="Facebook" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="https://twitter.com/voxollc">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/twitter_circle.png" height="20" alt="Twitter" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="http://youtube.voxo.co">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/youtube_circle.png" height="20" alt="YouTube" class="social_icon">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                      <p class="sub align-center">&copy; 2018 VOXO. All rights reserved.</p>
                       <p class="sub align-center">
-                        [Company Name, LLC]
-                        <br>1234 Street Rd.
-                        <br>Suite 1234
+                        VOXO, LLC
+                        <br>47 Town Center Sq.
+                        <br>Hattiesburg, MS 39402
                       </p>
                     </td>
                   </tr>

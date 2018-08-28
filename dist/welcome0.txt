@@ -75,9 +75,10 @@ Learn more about these products
 * Your deskphone ( https://s3.amazonaws.com/miscdts/quickstart-guide.pdf )
 * Watch How-to's on our YouTube channel ( http://youtube.voxo.co )
 
-If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat on our website.
+If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat ( {{ live_chat_url }} ) during business hours.
 
 Thanks,
+
 From the VOXO Team
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.

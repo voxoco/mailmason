@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Welcome to [Product Name], {{name}}!</title>
+    <title>Welcome to VOXO, {{name}}!</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -328,7 +328,7 @@
       display: inline-block;
       color: #FFF;
       text-decoration: none;
-      border-radius: 3px;
+      border-radius: 4px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
       -webkit-text-size-adjust: none;
     }
@@ -399,9 +399,9 @@
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
             <tr>
               <td class="email-masthead">
-                <a href="https://example.com" class="email-masthead_name">
-        [Product Name]
-      </a>
+                <a href="https://voxo.co" class="email-masthead_name">
+                  <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/logo.png" alt="VOXO" width="180">
+                </a>
               </td>
             </tr>
             <!-- Email Body -->
@@ -525,7 +525,7 @@
                                 </td>
                               </tr>
                               <tr>
-                                <td class="attribute-list-item"><strong><a href="{{feedback_url}}">Share feedback</a></strong> - If [Product Name] isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.</td>
+                                <td class="attribute-list-item"><strong><a href="{{feedback_url}}">Share feedback</a></strong> - If VOXO isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.</td>
                               </tr>
                             </table>
                           </td>
@@ -534,8 +534,8 @@
                       <hr>
                       <h1>Example Closing</h1>
                       <p>Thanks,
-                        <br>[Sender Name] and the [Product Name] Team</p>
-                      <p><strong>P.S.</strong> Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The [Product Name] support team is always excited to help you.</p>
+                        <br>Mail from VOXO and the VOXO Team</p>
+                      <p><strong>P.S.</strong> Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The VOXO support team is always excited to help you.</p>
                       <hr>
                       <h1>Discount Code</h1>
                       <!-- Discount -->
@@ -564,6 +564,28 @@
                       </table>
                       <hr>
                       <h1>Related Items</h1>
+                      <!-- Related Items -->
+                      <table class="related" align="center" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td align="center" colspan="2">
+                            <h2 class="related_heading">You may also like...</h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="related_item" align="center">
+                            <a href="">
+                              <img class="related_item-thumb" src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/related_placeholder.png" width="180">
+                              <h4 class="related_item-title">{{ item_one_name }}</h4>
+                            </a>
+                          </td>
+                          <td class="related_item" align="center">
+                            <a href="">
+                              <img class="related_item-thumb" src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/related_placeholder.png" width="180">
+                              <h4 class="related_item-title">{{ item_two_name }}</h4>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
                       <hr>
                       <h1>Sub-text</h1>
                       <p>Sub-text is for any content that needs to be included at the bottom of the email but doesn't need to stand out. This can be good for disclaimers and text alternatives.</p>
@@ -587,11 +609,30 @@
                 <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
                   <tr>
                     <td class="content-cell" align="center">
-                      <p class="sub align-center">&copy; 2017 [Product Name]. All rights reserved.</p>
+                      <table class="social" align="center" width="570" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="align-center">
+                            <a href="https://www.facebook.com/voxoco">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/facebook_circle.png" height="20" alt="Facebook" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="https://twitter.com/voxollc">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/twitter_circle.png" height="20" alt="Twitter" class="social_icon">
+                            </a>
+                          </td>
+                          <td class="align-center">
+                            <a href="http://youtube.voxo.co">
+                              <img src="https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/youtube_circle.png" height="20" alt="YouTube" class="social_icon">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                      <p class="sub align-center">&copy; 2018 VOXO. All rights reserved.</p>
                       <p class="sub align-center">
-                        [Company Name, LLC]
-                        <br>1234 Street Rd.
-                        <br>Suite 1234
+                        VOXO, LLC
+                        <br>47 Town Center Sq.
+                        <br>Hattiesburg, MS 39402
                       </p>
                     </td>
                   </tr>

@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Your VOXO trial has expired</title>
+    <title>New Voicemail from ${VM_CALLERID}</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -392,7 +392,6 @@
     </style>
   </head>
   <body>
-    <span class="preheader">Your trial period for VOXO has recently expired. What would you like us to do?</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
@@ -411,64 +410,54 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>Your VOXO trial expired</h1>
-                      <p>Thanks for trying VOXO. You've added a lot of data, so here are several options for you to consider going forward.</p>
-                      <!-- Action -->
-                      <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td align="center">
-                            <!-- Border based button
-                       https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design -->
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td align="center">
-                                  <table border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      <td>
-                                        <a href="{{action_url}}" class="button button--green" target="_blank">Upgrade your account</a>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                      <p>If you're not ready to upgrade to a paying account, you have a few other options available to you&hellip;</p>
+                      <h1>Hi, ${VM_NAME}!</h1>
+                      <p>There is a new voicemail in mailbox <strong>${VM_MAILBOX}</strong>. Here are the details:</p>
                       <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td class="attributes_content">
                             <table width="100%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td class="attributes_item"><strong><a href="{{trial_extension_url}}">Restart your trial</a></strong> - If you didn't get a chance to fully try out the product or need a little more time to evaluate, just let us know. Simply reply to this email and we'll extend your trial period.
-                                  <br>
-                                  <br>
-                                </td>
+                                <td class="attributes_item"><strong>From Name:</strong> ${VM_CIDNAME}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong><a href="{{feedback_url}}">Share feedback</a></strong> - If VOXO isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
-                                  <br>
-                                  <br>
-                                </td>
+                                <td class="attributes_item"><strong>From Number:</strong> ${VM_CIDNUM}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong><a href="{{export_url}}">Export your data</a></strong> - If VOXO wasn't a good fit, you can export your data for use elsewhere.
-                                  <br>
-                                  <br>
-                                </td>
+                                <td class="attributes_item"><strong>Date:</strong> ${VM_USDATE}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong><a href="{{close_account_url}}">Close your account</a></strong> - You can close your account and delete your data. Or, do nothing and we'll automatically close it and delete your data for you in 90 days. But don't worry, we'll send you another email before that happens.</td>
+                                <td class="attributes_item"><strong>Time:</strong> ${VM_12TIME}</td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>ID:</strong> ${VM_MSGNUM}</td>
                               </tr>
                             </table>
                           </td>
                         </tr>
                       </table>
-                      <p>Regardless of your choice, we want to say thank you for trying VOXO. We know it's an investment of your time, and we appreciate you giving us a chance.</p>
+                      <p>Here are the transiption details below:</p>
+                      <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="attributes_content">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="attributes_item">${VM_TRANSCRIPT}</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
                       <p>Thanks,
-                        <br>Mail from VOXO and the VOXO Team</p>
-                      <p><strong>P.S.</strong> If you have any questions or need any help, please don't hesitate to reach out. You can reply to this email or join us on live chat during business hours.</p>
+                        <br>From the VOXO Team</p>
+                      <!-- Sub copy -->
+                      <table class="body-sub">
+                        <tr>
+                          <td>
+                            <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
+                            <p class="sub">{{action_url}}</p>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>

@@ -1,0 +1,73 @@
+---
+layout: layout.hbs
+subject: "New Voicemail from ${VM_CALLERID}"
+preheader: ""
+---
+<table class="email-content" width="100%" cellpadding="0" cellspacing="0">
+
+  {{> masthead }}
+
+  <!-- Email Body -->
+  <tr>
+    <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
+      <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0">
+
+        <!-- Body content -->
+        <tr>
+          <td class="content-cell">
+
+            <h1>Hi, ${VM_NAME}!</h1>
+
+            <p>There is a new voicemail in mailbox <strong>${VM_MAILBOX}</strong>. Here are the details:</p>
+
+            <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="attributes_content">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="attributes_item"><strong>From Name:</strong> ${VM_CIDNAME}</td>
+                    </tr>
+                    <tr>
+                      <td class="attributes_item"><strong>From Number:</strong> ${VM_CIDNUM}</td>
+                    </tr>
+                    <tr>
+                      <td class="attributes_item"><strong>Date:</strong> ${VM_USDATE}</td>
+                    </tr>
+                    <tr>
+                      <td class="attributes_item"><strong>Time:</strong> ${VM_12TIME}</td>
+                    </tr>
+                    <tr>
+                      <td class="attributes_item"><strong>ID:</strong> ${VM_MSGNUM}</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <p>Here are the transiption details below:</p>
+
+            <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="attributes_content">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="attributes_item">${VM_TRANSCRIPT}</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <p>Thanks,<br>From the VOXO Team</p>
+
+            {{> button_trouble }}
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  {{> footer }}
+
+</table>

@@ -10,6 +10,16 @@
           "description": "Send a welcome email to users after they sign up.",
           "guide": "https://postmarkapp.com/guides/welcome-email-best-practices"
         },
+        "abandonded_queue": {
+          "name": "Abandonded Queue",
+          "description": "Send a welcome email to users after they sign up.",
+          "guide": "https://postmarkapp.com/guides/welcome-email-best-practices"
+        },
+        "voicemail": {
+          "name": "Voicemail",
+          "description": "Send a welcome email to users after they sign up.",
+          "guide": "https://postmarkapp.com/guides/welcome-email-best-practices"
+        },
         "password_reset": {
           "name": "Password Reset",
           "description": "Send users a link to reset their password.",
@@ -137,7 +147,7 @@
       div.container {
         width: 1128px;
         margin-left: auto;
-        margin-right: auto;        
+        margin-right: auto;
       }
       a.mailmason-logo {
         float: right;
@@ -149,7 +159,7 @@
     </style>
   </head>
   <body>
-    
+
     <div class="container">
       <nav>
         <ul>
@@ -221,7 +231,7 @@
         previews.appendChild(heading);
         previews.appendChild(top_link);
         previews.appendChild(description);
-        
+
         // Build the wide iframe preview for wide view of the template
         var wide_preview = document.createElement("iframe");
         wide_preview.setAttribute("width", "640")

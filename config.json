@@ -1,0 +1,48 @@
+{
+  "postmark": {
+    "from": "info@voxo.co",
+    "to": "info@voxo.co",
+    "subject": "Test Email"
+  },
+  "strings": {
+    "sender_name": "Mail from VOXO",
+    "product_name": "VOXO",
+    "product_url": "https://voxo.co",
+    "login_url": "https://portal.voxo.co",
+    "credit_card_statement_name": "VOXO, LLC",
+    "formal_company_name": "VOXO, LLC",
+    "address_line_1": "47 Town Center Sq.",
+    "address_line_2": "",
+    "city": "Hattiesburg",
+    "state": "MS 39402",
+    "country": "United States",
+    "phone": "601-602-5060",
+    "litmus_email": "info@voxo.co"
+  },
+  "images": {
+    "use_images": true,
+    "images_url": "https://s3.amazonaws.com/miscdts/voxo-assets/email-assets/",
+    "logo_file": "logo.png",
+    "logo_width": "180",
+    "use_social_circles": true,
+    "twitter_url": "https://twitter.com/voxollc",
+    "facebook_url": "https://www.facebook.com/voxoco",
+    "pinterest_url": "",
+    "instagram_url": "",
+    "google_plus_url": "",
+    "youtube_url": "http://youtube.voxo.co",
+    "linkedin_url": "",
+    "dribbble_url": ""
+  },
+  "ftp": {
+    "host": "12.34.56.79",
+    "port": "21",
+    "src": "src/images",
+    "dest": "/example/images"
+  },
+  "s3": {
+    "bucket": "",
+    "region": "",
+    "overwrite": true
+  }
+}
