@@ -1,4 +1,4 @@
-Thanks for trying out VOXO. We’ve pulled together some information and resources to help you get started.
+We failed to deliver your fax to ${FAXDESTNUM}.
 
 VOXO ( https://voxo.co )
 
@@ -34,7 +34,3 @@ YouTube ( http://youtube.voxo.co )
 © 2018 VOXO. All rights reserved.
 
 VOXO, LLC
-
-47 Town Center Sq.
-
-Hattiesburg, MS 39402

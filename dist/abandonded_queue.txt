@@ -1,3 +1,5 @@
+A caller has abandoned a queue.
+
 VOXO ( https://voxo.co )
 
 *********
@@ -28,7 +30,3 @@ YouTube ( http://youtube.voxo.co )
 © 2018 VOXO. All rights reserved.
 
 VOXO, LLC
-
-47 Town Center Sq.
-
-Hattiesburg, MS 39402

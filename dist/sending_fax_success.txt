@@ -1,4 +1,4 @@
-Thanks for trying out VOXO. We’ve pulled together some information and resources to help you get started.
+Your fax to ${FAXDESTNUM} as successfully been delivered.
 
 VOXO ( https://voxo.co )
 
@@ -32,7 +32,3 @@ YouTube ( http://youtube.voxo.co )
 © 2018 VOXO. All rights reserved.
 
 VOXO, LLC
-
-47 Town Center Sq.
-
-Hattiesburg, MS 39402

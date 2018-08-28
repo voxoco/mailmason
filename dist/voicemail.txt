@@ -1,3 +1,5 @@
+There is a new voicemail in mailbox ${VM_MAILBOX}.
+
 VOXO ( https://voxo.co )
 
 ***************
@@ -16,7 +18,7 @@ Time: ${VM_12TIME}
 
 ID: ${VM_MSGNUM}
 
-Here are the transiption details below:
+Here is the voicemail transcription below:
 
 ${VM_TRANSCRIPT}
 
@@ -34,7 +36,3 @@ YouTube ( http://youtube.voxo.co )
 © 2018 VOXO. All rights reserved.
 
 VOXO, LLC
-
-47 Town Center Sq.
-
-Hattiesburg, MS 39402
