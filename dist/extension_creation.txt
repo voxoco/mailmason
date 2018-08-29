@@ -60,7 +60,7 @@ Using VOXO Meet
 
 You can send customers and colleagues your personal Meeting URL and arrange on-demand or scheduled web meetings.
 
-Checkout VOXO Meet ( https://meet.voxo.co/%24%7BWEBPASSWORD%7D )
+Checkout VOXO Meet ( https://meet.voxo.co/%24%7BPASSWORD%7D )
 
 For reference, here's your personal meeting URL to share with others:
 
