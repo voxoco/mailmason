@@ -20,6 +20,21 @@ Your VOXO Extension
 
 * You can record a personalized greeting by following the voice prompts in your mailbox
 
+*************************
+Using the VOXO Mobile App
+*************************
+
+With the VOXO mobile app you can make and receive calls, view the presence of your colleagues, transfer calls with a click and chat with one another.
+
+* Android ( https://play.google.com/store/apps/details?id=com.voxo.voxo.android )
+* iOS ( https://itunes.apple.com/us/app/voxo-mobility/id1434645492?mt=8 )
+
+After installing the iOS or Android app, see the details below for signing in
+
+* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( csc:%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
+
+* If you are viewing this email on your PC, open your mobile app on your phone and Click Here to see your QR Code ( https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=csc:%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
+
 **************************
 Using the VOXO Desktop App
 **************************
@@ -36,21 +51,6 @@ To install the app on your computer click one of the links below:
 * Mac ( https://s3.amazonaws.com/miscdts/voxo-assets/releases/VOXO-Mobile-Mac.dmg )
 
 Using the VOXO Quick Dial Chrome Plugin ( https://chromeweblink.com ) you can call numbers directly from any webpage or CRM.
-
-*************************
-Using the VOXO Mobile App
-*************************
-
-With the VOXO mobile app you can make and receive calls, view the presence of your colleagues, transfer calls with a click and chat with one another.
-
-* Android ( https://play.google.com/store/apps/details?id=com.voxo.voxo.android )
-* iOS ( https://ios.com )
-
-After installing the iOS or Android app, see the details below for signing in
-
-* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( csc://%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D )
-
-* If you are viewing this email on your PC, open your mobile app on your phone and Click Here to see your QR Code ( https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D )
 
 ***************
 Using VOXO Meet
