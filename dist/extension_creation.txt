@@ -31,7 +31,7 @@ With the VOXO mobile app you can make and receive calls, view the presence of yo
 
 After installing the iOS or Android app, see the details below for signing in
 
-* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( csc:%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
+* If you a viewing this email on your mobile device and have already downloaded the app, Click here to sign in ( https://voxo.co/mobile-code?code=csc:%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
 
 * If you are viewing this email on your PC, open your mobile app on your phone and Click Here to see your QR Code ( https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=csc:%24%7BEXTENSION%7D:%24%7BWEBPASSWORD%7D@VOXO )
 
