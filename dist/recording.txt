@@ -12,12 +12,6 @@ Start: ${START}
 
 Source: ${SOURCE}
 
-Real Source: ${REALSRC}
-
-First Destination: ${FIRSTDST}
-
-Last Destination: ${LASTDST}
-
 If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat on our website.
 
 Thanks,
