@@ -50,7 +50,7 @@ To install the app on your computer click one of the links below:
 * Windows ( https://s3.amazonaws.com/miscdts/voxo-assets/releases/VOXO-Mobile-Windows.exe )
 * Mac ( https://s3.amazonaws.com/miscdts/voxo-assets/releases/VOXO-Mobile-Mac.dmg )
 
-Using the VOXO Quick Dial Chrome Plugin ( https://chromeweblink.com ) you can call numbers directly from any webpage or CRM.
+Using the VOXO Quick Dial Chrome Plugin ( https://chrome.google.com/webstore/detail/ckohnlaiommapdclfdndapcofmkacino ) you can call numbers directly from any webpage or CRM.
 
 ***************
 Using VOXO Meet
