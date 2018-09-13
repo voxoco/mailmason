@@ -10,7 +10,11 @@ You asked us to let you know when you when you missed a call. Here are the detai
 
 Date: ${DATE}
 
-Caller ID: ${CIDNUM}
+Caller Name: ${CNAMNAME}
+
+Caller ID: ${INCOMINGCALLERIDNUM}
+
+Dialed Number: ${INCOMINGDID}
 
 If you have any questions, feel free to email our customer success team ( support@voxo.co ). (We're lightning quick at replying.) We also offer live chat on our website.
 

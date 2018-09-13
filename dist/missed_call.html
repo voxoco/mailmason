@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>You missed a call!</title>
+    <title>You missed a call from ${CNAMNAME}</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -421,7 +421,13 @@
                                 <td class="attributes_item"><strong>Date:</strong> ${DATE}</td>
                               </tr>
                               <tr>
-                                <td class="attributes_item"><strong>Caller ID:</strong> ${CIDNUM}</td>
+                                <td class="attributes_item"><strong>Caller Name:</strong> ${CNAMNAME}</td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Caller ID:</strong> ${INCOMINGCALLERIDNUM}</td>
+                              </tr>
+                              <tr>
+                                <td class="attributes_item"><strong>Dialed Number:</strong> ${INCOMINGDID}</td>
                               </tr>
                             </table>
                           </td>
